@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Throne of Grace Prophetic Ministries</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;600;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <canvas id="particles"></canvas>
+
+  <!-- TOP BAR -->
+  <div class="topbar">
+    <div class="topbar-inner">
+      <div class="topbar-left">
+        <a href="tel:0645284393"><i class="fa-solid fa-phone"></i> 064 528 4393</a>
+        <a href="mailto:throneofgraceprofeticministry@gmail.com"><i class="fa-solid fa-envelope"></i> throneofgraceprofeticministry@gmail.com</a>
+      </div>
+      <div class="topbar-right">
+        <a href="https://www.facebook.com/togpropheticministries" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/throneofgraceministries_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.youtube.com/@TOG_PropheticMinistries" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://www.tiktok.com/@throneofgraceministries" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a class="nav-logo" href="#home">
+        <img src="307484403_465947985571035_1231750137986845254_n.jpg.jpeg" alt="TOG Logo" class="nav-logo-img"/>
+        <div class="nav-logo-text">
+          <span class="nav-logo-title">Throne of Grace</span>
+          <span class="nav-logo-sub">Prophetic Ministries</span>
+        </div>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#prophet">Leadership</a></li>
+        <li><a href="#branches">Branches</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#connect">Connect</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="https://www.tiktok.com/@throneofgraceministries" target="_blank" class="btn-watch-live">
+          <span class="live-dot"></span> Watch Live
+        </a>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SLIDESHOW -->
+
+  <div class="hero-slide active" data-index="0">
+        <div class="slide-bg" style="background-image:url('prophet.jpeg')"></div>
+        <div class="slide-overlay"></div>
+        <div class="slide-caption">
+          <span class="slide-tag">Prophetic Ministry</span>
+          <h2 class="slide-headline">A Voice for<br/><em>This Generation</em></h2>
+          <p class="slide-desc">Walking in the prophetic mantle, declaring God's word with power and precision.</p>
+        </div>
+      </div>
+  <section id="home" class="hero">
+    <div class="hero-slides" id="heroSlides">
+      <!-- Slide 1: Prophet image -->
+      <div class="hero-slide active" style="background-image:url('prophet image.jpeg')"></div>
+        <div class="slide-overlay"></div>
+      
+      </div>
+      <!-- Slide 2: Gradient atmosphere -->
+      <div class="hero-slide" style="background-image:url('phet.jpeg')"></div>
+        <div class="slide-overlay" style="background: rgba(0,0,0,0.2)"></div>
+      </div>
+      <!-- Slide 3: Dark blue ambiance -->
+      <div class="hero-slide" style="background-image:url('pro.jpeg')"></div>
+        <div class="slide-overlay" style="background: rgba(0,0,0,0.15)"></div>
+      </div>
+    </div>
+
+    <!-- Slide indicators -->
+    <div class="slide-indicators" id="slideIndicators">
+      <button class="indicator active" data-slide="0"></button>
+      <button class="indicator" data-slide="1"></button>
+      <button class="indicator" data-slide="2"></button>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-badge reveal">
+        <span class="live-dot"></span>
+        <span>Services Every Sunday</span>
+      </div>
+      <div class="hero-logo-display reveal">
+        <img src="307484403_465947985571035_1231750137986845254_n.jpg.jpeg" alt="Throne of Grace Logo" class="hero-logo-img"/>
+      </div>
+      <h1 class="hero-title reveal">
+        <span class="title-top">Throne of</span>
+        <span class="title-main">Grace</span>
+      </h1>
+      <p class="hero-sub reveal">Prophetic Ministries</p>
+      <div class="hero-divider reveal">
+        <span class="hdiv-line"></span><span class="hdiv-cross">✦</span><span class="hdiv-line"></span>
+      </div>
+      <p class="hero-tagline reveal"><em>"A Home of Godly Encounters"</em></p>
+      <div class="hero-cta reveal">
+        <a href="https://www.youtube.com/@TOG_PropheticMinistries" target="_blank" class="btn btn-watch">
+          <span class="live-dot"></span> Watch Live
+        </a>
+        <a href="#about" class="btn btn-ghost">Discover More</a>
+        <a href="#branches" class="btn btn-outline">Find a Branch</a>
+      </div>
+    </div>
+
+    <div class="hero-scroll">
+      <span>Scroll Down</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ANNOUNCEMENT TICKER -->
+  <div class="ticker-wrap">
+    <div class="ticker-track">
+      <span>✦ Welcome to Throne of Grace Prophetic Ministries</span>
+      <span>✦ Sunday Services at all three branches — Witbank · Ekangala · Kriel</span>
+      <span>✦ Follow us on YouTube, Facebook, Instagram & TikTok</span>
+      <span>✦ "Let us therefore come boldly to the Throne of Grace" — Hebrews 4:16</span>
+      <span>✦ Welcome to Throne of Grace Prophetic Ministries</span>
+      <span>✦ Sunday Services at all three branches — Witbank · Nkangala · Kriel</span>
+      <span>✦ Follow us on YouTube, Facebook, Instagram & TikTok</span>
+      <span>✦ "Let us therefore come boldly to the Throne of Grace" — Hebrews 4:16</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about" class="about section">
+    <div class="container">
+      <div class="section-label reveal">Our Story</div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <h2 class="section-title">A Place of<br/><em>Divine Encounters</em></h2>
+          <p>Throne of Grace Prophetic Ministries is a sanctuary of divine encounters and spiritual growth, wholly dedicated to drawing people closer to God. We exist to ignite faith, nurture community, and release prophetic purpose in every life we touch.</p>
+          <p>Rooted in scripture and moved by the Spirit, we carry a heart for every soul — whether you are beginning your faith journey or deepening your walk with God. With three branches across Mpumalanga, we are committed to transforming lives through the power of His Word.</p>
+          <div class="about-values">
+            <div class="value-item reveal"><i class="fa-solid fa-fire-flame-curved"></i><span>Spirit-Led Worship</span></div>
+            <div class="value-item reveal"><i class="fa-solid fa-hands-praying"></i><span>Prophetic Ministry</span></div>
+            <div class="value-item reveal"><i class="fa-solid fa-heart"></i><span>Community & Love</span></div>
+            <div class="value-item reveal"><i class="fa-solid fa-book-bible"></i><span>Word-Based Teaching</span></div>
+          </div>
+        </div>
+        <div class="about-scripture reveal">
+          <div class="scripture-card">
+            <div class="scripture-glow"></div>
+            <div class="scripture-cross">✝</div>
+            <blockquote>
+              "Let us therefore come boldly to the throne of grace, that we may obtain mercy and find grace to help in time of need."
+            </blockquote>
+            <cite>Hebrews 4:16</cite>
+            <div class="scripture-founded">
+              <span class="founded-label">Est.</span>
+              <span class="founded-year">2014</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROPHET SECTION -->
+  <section id="prophet" class="prophet section">
+    <div class="prophet-bg-art"></div>
+    <div class="container">
+      <div class="section-label reveal" style="text-align:center">Our Leadership</div>
+      <h2 class="section-title centered reveal">Meet Our <em>Founder</em></h2>
+      <div class="prophet-grid">
+        <div class="prophet-img-wrap reveal">
+          <div class="prophet-frame">
+            <img src="631799436_1496565645804658_7072193710622249403_n.jpg.jpeg" alt="Prophet Micaiah Shepherd Madonsela" class="prophet-photo"/>
+            <div class="prophet-frame-corner tl"></div>
+            <div class="prophet-frame-corner tr"></div>
+            <div class="prophet-frame-corner bl"></div>
+            <div class="prophet-frame-corner br"></div>
+          </div>
+          <div class="prophet-name-plate">
+            <span class="plate-title">Prophet</span>
+            <span class="plate-name">Micaiah Shepherd Madonsela</span>
+            <span class="plate-role">Founder & Senior Prophet</span>
+          </div>
+        </div>
+        <div class="prophet-bio reveal">
+          <div class="bio-ornament">✦</div>
+          <h3>Prophet Micaiah<br/><em>Shepherd Madonsela</em></h3>
+          <p>Prophet Micaiah Shepherd Madonsela is the visionary founder of Throne of Grace Prophetic Ministries. Called by God with a burning mandate to awaken the prophetic voice across communities, he has built a ministry that stands as a beacon of hope, healing, and transformation.</p>
+          <p>Under his leadership, Throne of Grace has grown from a single gathering into a thriving ministry with three branches, impacting thousands of lives through the power of the Holy Spirit and the unwavering Word of God.</p>
+          <p>His ministry is marked by bold prophetic declarations, miraculous encounters, and an uncompromising devotion to God's Kingdom.</p>
+          <div class="prophet-stats">
+            <div class="stat-item">
+              <span class="stat-num">3</span>
+              <span class="stat-label">Branches</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-num">10+</span>
+              <span class="stat-label">Years of Ministry</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-num">1000s</span>
+              <span class="stat-label">Lives Touched</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BRANCHES -->
+  <section id="branches" class="branches section">
+    <div class="container">
+      <div class="section-label reveal">Where We Are</div>
+      <h2 class="section-title centered reveal">Our <em>Three Branches</em></h2>
+      <p class="section-sub reveal">Serving communities across Mpumalanga with the love and power of God.</p>
+      <div class="branches-grid">
+        <div class="branch-card reveal" style="--delay:0s">
+          <div class="branch-num">01</div>
+          <div class="branch-icon-wrap"><i class="fa-solid fa-church"></i></div>
+          <h3>Witbank Branch</h3>
+          <div class="branch-image">Main Branch</div>
+          <address><i class="fa-solid fa-location-dot"></i>18 Melodies Street, Klarinet, Witbank</address>
+          <a href="https://maps.google.com/?q=18+Melodies+Street+Klarinet+Witbank" target="_blank" class="branch-link">
+            Get Directions <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+        <div class="branch-card reveal featured" style="--delay:0.15s">
+          <div class="branch-num">02</div>
+          <div class="branch-icon-wrap"><i class="fa-solid fa-church"></i></div>
+          <h3>Ekangala Branch</h3>
+          <div class="branch-badge">Ekangala</div>
+          <address><i class="fa-solid fa-location-dot"></i>4519 Section B, Ekangala (Ka-April)</address>
+          <a href="https://maps.google.com/?q=4519+Section+B+Ekangala" target="_blank" class="branch-link">
+            Get Directions <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+        <div class="branch-card reveal" style="--delay:0.3s">
+          <div class="branch-num">03</div>
+          <div class="branch-icon-wrap"><i class="fa-solid fa-church"></i></div>
+          <h3>Kriel Branch</h3>
+          <div class="branch-badge">Khayalami</div>
+          <address><i class="fa-solid fa-location-dot"></i>6359 Thubelihle Extension 7, Khayalami (New Stands)</address>
+          <a href="https://maps.google.com/?q=6359+Thubelihle+Extension+7+Kriel" target="_blank" class="branch-link">
+            Get Directions <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY / MEDIA -->
+  <section id="gallery" class="gallery section">
+    <div class="container">
+      <div class="section-label reveal">Media & Moments</div>
+      <h2 class="section-title centered reveal">Gallery <em>&amp; Services</em></h2>
+      <p class="section-sub reveal">Glimpses of God's glory at work in our midst. Tap any image to view.</p>
+      <div class="gallery-grid reveal">
+        <!-- Prophet photo featured -->
+        <div class="gallery-item large" style="background-image:url('prophet.jpeg')">
+          <div class="gallery-overlay"><span>Prophet in Ministry</span></div>
+        </div>
+        <!-- Colored placeholder tiles using CSS atmospheres -->
+        <div class="gallery-item" style="background-image:url('at.jpeg')">
+          <div class="gallery-overlay"><span>Sunday Service</span></div>
+        </div>
+        <div class="gallery-item" style="background-image:url('sin.jpeg')">
+          <div class="gallery-overlay"><span>Worship Night</span></div>
+          <div class="gallery-icon"><i class="fa-solid fa-music"></i></div>
+        </div>
+        <div class="gallery-item" style="background-image:url('pray.jpeg')">
+          <div class="gallery-overlay"><span>Prayer Session</span></div>
+          <div class="gallery-icon"><i class="fa-solid fa-fire-flame-curved"></i></div>
+        </div>
+        <div class="gallery-item" style="background-image:url('out.jpeg')">
+          <div class="gallery-overlay"><span>Community Outreach</span></div>
+          <div class="gallery-icon"><i class="fa-solid fa-heart"></i></div>
+        </div>
+        <div class="gallery-item" style="background-image:url('phet.jpeg')">
+          <div class="gallery-overlay"><span>Prophetic Declaration</span></div>
+          <div class="gallery-icon"><i class="fa-solid fa-bullhorn"></i></div>
+        </div>
+      </div>
+      <div class="gallery-cta reveal">
+        <a href="https://www.youtube.com/@TOG_PropheticMinistries" target="_blank" class="btn btn-primary">
+          <i class="fa-brands fa-youtube"></i> Watch Full Services on YouTube
+        </a>
+        <a href="https://www.facebook.com/togpropheticministries" target="_blank" class="btn btn-ghost">
+          <i class="fa-brands fa-facebook-f"></i> More Photos on Facebook
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WATCH LIVE / YOUTUBE EMBED SECTION -->
+  <section class="watchlive section">
+    <div class="watchlive-bg"></div>
+    <div class="container">
+      <div class="watchlive-inner">
+        <div class="watchlive-text reveal">
+          <div class="section-label">Online Ministry</div>
+          <h2 class="section-title">Watch Us <em>Live</em></h2>
+          <p>Can't make it in person? Join us online every Sunday for anointed worship, powerful prophetic preaching, and life-changing encounters with God.</p>
+          <p>Our services are streamed live on Facebook and TikTok — subscribe so you never miss a moment of what God is doing at Throne of Grace.</p>
+          <div class="watchlive-platforms">
+            <a href="https://www.youtube.com/@TOG_PropheticMinistries" target="_blank" class="platform-btn youtube">
+              <i class="fa-brands fa-youtube"></i> YouTube
+            </a>
+            <a href="https://www.facebook.com/togpropheticministries" target="_blank" class="platform-btn facebook">
+              <i class="fa-brands fa-facebook-f"></i> Facebook Live
+            </a>
+            <a href="https://www.tiktok.com/@throneofgraceministries" target="_blank" class="platform-btn tiktok">
+              <i class="fa-brands fa-tiktok"></i> TikTok
+            </a>
+          </div>
+          <a href="https://www.facebook.com/togpropheticministries" target="_blank" class="btn btn-watch big-watch">
+            <span class="live-dot"></span> Watch Now
+          </a>
+        </div>
+        <div class="watchlive-embed reveal">
+          <div class="embed-frame">
+            <div class="embed-placeholder">
+              <i class="fa-brands fa-facebook-f embed-fb-icon"></i>
+              <p>Live &amp; Recent Services</p>
+              <a href="https://www.facebook.com/togpropheticministries" target="_blank" class="btn btn-watch">
+                <span class="live-dot"></span> Open Facebook Channel
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONNECT / SOCIALS -->
+  <section id="connect" class="connect section">
+    <div class="container">
+      <div class="section-label reveal" style="text-align:center">Stay Connected</div>
+      <h2 class="section-title centered reveal">Follow Us <em>Online</em></h2>
+      <p class="section-sub reveal">Be part of the Throne of Grace family wherever you are.</p>
+      <div class="socials-grid reveal">
+        <a href="https://www.facebook.com/togpropheticministries" target="_blank" class="social-card facebook">
+          <div class="social-icon-wrap"><i class="fa-brands fa-facebook-f"></i></div>
+          <div class="social-info">
+            <span class="social-name">Facebook</span>
+            <span class="social-handle">TOG Prophetic Ministries</span>
+            <span class="social-action">Like Our Page →</span>
+          </div>
+        </a>
+        <a href="https://www.instagram.com/throneofgraceministries_/" target="_blank" class="social-card instagram">
+          <div class="social-icon-wrap"><i class="fa-brands fa-instagram"></i></div>
+          <div class="social-info">
+            <span class="social-name">Instagram</span>
+            <span class="social-handle">@throneofgraceministries_</span>
+            <span class="social-action">Follow Us →</span>
+          </div>
+        </a>
+        <a href="https://www.youtube.com/@TOG_PropheticMinistries" target="_blank" class="social-card youtube">
+          <div class="social-icon-wrap"><i class="fa-brands fa-youtube"></i></div>
+          <div class="social-info">
+            <span class="social-name">YouTube</span>
+            <span class="social-handle">@TOG_PropheticMinistries</span>
+            <span class="social-action">Subscribe →</span>
+          </div>
+        </a>
+        <a href="https://www.tiktok.com/@throneofgraceministries" target="_blank" class="social-card tiktok">
+          <div class="social-icon-wrap"><i class="fa-brands fa-tiktok"></i></div>
+          <div class="social-info">
+            <span class="social-name">TikTok</span>
+            <span class="social-handle">@throneofgraceministries</span>
+            <span class="social-action">Follow Us →</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <div class="section-label reveal">Reach Out</div>
+      <h2 class="section-title centered reveal">Get In <em>Touch</em></h2>
+      <p class="section-sub reveal">We'd love to hear from you. Reach out and let us know how we can pray for or serve you.</p>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+            <div>
+              <span class="contact-label">Phone</span>
+              <a href="tel:0645284393" class="contact-value">064 528 4393</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <span class="contact-label">Email</span>
+              <a href="mailto:throneofgraceprofeticministry@gmail.com" class="contact-value">throneofgraceprofeticministry@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <span class="contact-label">Main Branch</span>
+              <span class="contact-value">18 Melodies Street, Klarinet, Witbank</span>
+            </div>
+          </div>
+          <div class="contact-prayer reveal">
+            <div class="prayer-inner">
+              <i class="fa-solid fa-hands-praying"></i>
+              <h4>Prayer Request?</h4>
+              <p>Send us your prayer request and our team will stand in agreement with you.</p>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form reveal" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">Full Name</label>
+              <input type="text" id="fname" placeholder="Your Name" required/>
+            </div>
+            <div class="form-group">
+              <label for="femail">Email</label>
+              <input type="email" id="femail" placeholder="your@email.com" required/>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fphone">Phone</label>
+              <input type="tel" id="fphone" placeholder="Your number"/>
+            </div>
+            <div class="form-group">
+              <label for="fsubject">Subject</label>
+              <select id="fsubject">
+                <option value="">Select topic…</option>
+                <option>General Enquiry</option>
+                <option>Prayer Request</option>
+                <option>Membership</option>
+                <option>Partnership</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="fmessage">Message</label>
+            <textarea id="fmessage" rows="5" placeholder="Write your message here…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-width">
+            Send Message <i class="fa-solid fa-paper-plane"></i>
+          </button>
+          <p class="form-success" id="formSuccess">✦ Your message has been sent. God bless you!</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-wave"></div>
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="307484403_465947985571035_1231750137986845254_n.jpg.jpeg" alt="TOG Logo" class="footer-logo"/>
+          <div>
+            <h4>Throne of Grace</h4>
+            <p>Prophetic Ministries</p>
+            <span class="footer-tagline">"A Home of Godly Encounters"</span>
+          </div>
+        </div>
+        <div class="footer-links-col">
+          <h5>Quick Links</h5>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#prophet">Leadership</a></li>
+            <li><a href="#branches">Our Branches</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-col">
+          <h5>Branches</h5>
+          <ul>
+            <li>Witbank — Klarinet</li>
+            <li>Nkangala — Ekangala</li>
+            <li>Kriel — Khayalami</li>
+          </ul>
+        </div>
+        <div class="footer-links-col">
+          <h5>Follow Us</h5>
+          <div class="footer-socials">
+            <a href="https://www.facebook.com/togpropheticministries" target="_blank" class="fs-fb"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/throneofgraceministries_/" target="_blank" class="fs-ig"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com/@TOG_PropheticMinistries" target="_blank" class="fs-yt"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.tiktok.com/@throneofgraceministries" target="_blank" class="fs-tk"><i class="fa-brands fa-tiktok"></i></a>
+          </div>
+          <a href="https://www.youtube.com/@TOG_PropheticMinistries" target="_blank" class="btn-watch-live footer-watch">
+            <span class="live-dot"></span> Watch Live
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Throne of Grace Prophetic Ministries. All rights reserved.</p>
+        <p>Founded by Prophet Micaiah Shepherd </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
